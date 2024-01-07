@@ -8,7 +8,7 @@ export function FooterThree() {
    whileInView={{opacity:1, width:"100%"}}  
    transition={{duration: 0.7}}
        className="w-[100%] h-[1px] bg-black"></motion.div>  
-    <section className="relative flex overflow-hidden  py-8">
+    <section className="relative flex lg:flex-row flex-col overflow-hidden  py-8">
       <div className="container flex items-center justify-between relative z-10 mx-auto px-4">
         <div className="-m-8 flex flex-wrap items-center justify-between">
           <div className="w-auto p-8">
@@ -32,7 +32,7 @@ export function FooterThree() {
           </div>
            
           </div>
-          <div className="w-auto p-8">
+          <div className="w-auto p-8 ">
             <div className="-m-1.5 flex flex-wrap">
               <div className="w-auto p-1.5">
                 <a href="#">

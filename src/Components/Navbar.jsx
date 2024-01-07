@@ -31,7 +31,7 @@ innerWidth:0 },   // Start position off-screen to the left
         <li  className='lg:inline hidden'> <a href="#About">About me</a>  </li>
         <li className='lg:inline hidden'> <a href="#Projects"> Projects</a> </li>
         <li className='lg:inline hidden'> <a href="#Contact"> Contact me</a> </li>
-        <li className='lg:inline hidden'> <a href="#">Resume</a>  </li>  
+        <li className='lg:inline hidden'> <a href="https://drive.google.com/uc?export=download&id=1keQy5_GV-HuYOdRWYxeAFWsgk7bZh66v">Resume</a>  </li>  
         <li className='justify-self-end z-20'><div className=" flex flex-col gap-2 icon lg:hidden" onClick={clicked}>
           <div className={`w-[30px] h-[2px] bg-black  ${click?"rotate-45" : "rotate-0"} origin-left transition`}></div>
           <div className={`w-[30px] h-[2px] bg-black ${click?"hidden" : "inline-block"}  middle  transition`} ></div>
@@ -46,7 +46,7 @@ innerWidth:0 },   // Start position off-screen to the left
             <li  > <a href="#About" onClick={setClickfalse}>About me</a>  </li>
         <li > <a href="#Projects"  onClick={setClickfalse}> Projects</a> </li>
         <li > <a href="#Contact"  onClick={setClickfalse}>  Contact me</a> </li>
-        <li> <a href="#"  onClick={setClickfalse}>Resume</a>  </li> 
+        <li> <a href="https://drive.google.com/uc?export=download&id=1keQy5_GV-HuYOdRWYxeAFWsgk7bZh66v"  onClick={setClickfalse}>Resume</a>  </li> 
         </ul>
       ):null
       
