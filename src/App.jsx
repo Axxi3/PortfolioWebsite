@@ -84,7 +84,7 @@ function App() {
       transition={{duration:0.4}}
       viewport={{ once: true }}
         
-        className='text-[20px]'>Raj, with a solid year of experience in web development, is well-versed in the intricacies of the field. His focus lies in crafting dynamic and efficient web solutions, showcasing expertise in both React and the MERN (MongoDB, Express.js, React, Node.js) stack.
+        className='lg:text-[20px] text-[15px]'>Raj, with a solid year of experience in web development, is well-versed in the intricacies of the field. His focus lies in crafting dynamic and efficient web solutions, showcasing expertise in both React and the MERN (MongoDB, Express.js, React, Node.js) stack.
 
 Having navigated through a diverse range of projects, Raj brings hands-on experience in building responsive and engaging websites. His proficiency extends from front-end design to back-end development, ensuring the seamless integration of user interfaces with robust server-side functionalities.
 
@@ -108,7 +108,7 @@ Having navigated through a diverse range of projects, Raj brings hands-on experi
       whileInView={{y:0}}    
       
       transition={{duration:0.4}}
-         className='text-[20px] mt-[20px]'>Raj, an accomplished Android developer, brings a wealth of experience and expertise to the world of mobile app development. His primary focus lies in mastering Kotlin and React Native, two powerful technologies that have become instrumental in shaping the Android landscape. With an impressive portfolio, Raj stands out for successfully creating three e-commerce applications, underscoring his ability to design and implement robust, user-friendly solutions.
+         className='lg:text-[20px] text-[15px] mt-[20px]'>Raj, an accomplished Android developer, brings a wealth of experience and expertise to the world of mobile app development. His primary focus lies in mastering Kotlin and React Native, two powerful technologies that have become instrumental in shaping the Android landscape. With an impressive portfolio, Raj stands out for successfully creating three e-commerce applications, underscoring his ability to design and implement robust, user-friendly solutions.
 <br /><br />
 What sets Raj apart is his versatility, seamlessly navigating between Kotlin and React Native to deliver high-quality projects that resonate across different platforms. Whether he's spearheading the development of feature-rich e-commerce applications or engaging in a myriad of diverse mobile projects, Raj consistently demonstrates his commitment to excellence in the dynamic realm of Android development. His dedication and proven track record make him an invaluable asset to any mobile app development team.</motion.p> </div>    
       </div>  
@@ -129,7 +129,7 @@ What sets Raj apart is his versatility, seamlessly navigating between Kotlin and
       whileInView={{y:0}}      
       viewport={{ once: true }}
       transition={{duration:0.4}}
-         className='text-[20px]'>
+         className='lg:text-[20px] text-[15px]'>
 Raj is a proficient website designer with a year of hands-on experience, showcasing his talent in creating visually appealing and functional web solutions. Specializing in website design, Raj has successfully delivered a diverse range of projects, highlighting his commitment to excellence in the realm of web development.
 <br /><br />
 With expertise across various platforms and a keen eye for design aesthetics, Raj's portfolio reflects his dedication to crafting websites that not only captivate users visually but also provide an intuitive and engaging experience. From corporate websites to dynamic e-commerce platforms, Raj's versatility and commitment shine through, making him a valuable asset in the dynamic landscape of website design.</motion.p>
@@ -142,7 +142,7 @@ With expertise across various platforms and a keen eye for design aesthetics, Ra
    viewport={{ once: true }}
      className="w-[100%] h-[1px] bg-black mt-4"></motion.div>
 
-      <section className="mt-[50px] change h-[100vh] w-[100vw] flex md:flex-row flex-col" id='Projects'>
+      <section className="mt-[50px] change md:h-[100vh] h-[150vh] w-[100vw] flex md:flex-row flex-col" id='Projects'>
      <div className="left w-[50%] self-center">
      <p className='lg:text-[80px] text-[40px] md:text-[50px] mt-[30px] text-center lg:pl-[100px] w-[100%]'>Projects</p>  
      <p className='lg:text-[60px] text-[30px] md:text-[40px] mt-[30px] text-center lg:pl-[100px] w-[100%]'>Some of the key highlights of my projects</p>

@@ -24,7 +24,7 @@ innerWidth:0 },   // Start position off-screen to the left
   return (
     <div className='flex justify-between w-[100vw] p-[20px] relative bg-[#E4EAD3] lg:sticky top-0 z-50'>  
     <div className="w-[50%]">  
-    <motion.p initial={{x:-1000,opacity:0}} animate={{x:0,opacity:100}} transition={{duration:"0.5"}} className='text-[35px] text-left head' >Friendly Coder</motion.p>
+    <motion.p initial={{x:-1000,opacity:0}} animate={{x:0,opacity:100}} transition={{duration:"0.5"}} className='lg:text-[35px] text-[25px] text-left head' >Friendly Coder</motion.p>
     </div>
     <motion.ul  initial={{x:500,opacity:0}} animate={{x:0,opacity:100}} transition={{duration:"0.5"}} className='flex w-[50%] items-center lg:justify-evenly justify-end gap-7 text-[20px]'>
         

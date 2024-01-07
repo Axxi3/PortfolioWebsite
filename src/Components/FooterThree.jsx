@@ -26,7 +26,7 @@ export function FooterThree() {
                     fill="black"
                   />
                 </motion.svg>
-                <motion.p initial={{x:-1000,opacity:0}} animate={{x:0,opacity:100}} transition={{duration:"0.5",delay:0.5}} className='text-[35px] text-left head pl-[10px]' >Friendly Coder</motion.p>
+                <motion.p initial={{x:-1000,opacity:0}} animate={{x:0,opacity:100}} transition={{duration:"0.5",delay:0.5}} className='lg:text-[35px]md:text-[30px] text-[25px] text-left head pl-[10px]' >Friendly Coder</motion.p>
               </div>
             </a>
           </div>

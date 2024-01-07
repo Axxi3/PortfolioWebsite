@@ -30,7 +30,7 @@ export default function ContactUs({ onEmptyFields ,emailSender}) {
   };
   return (
     <section className='changeAgain p-[50px]' id='Contact'>  
-    <p className='lg:text-[60px] text-[30px] md:text-[40px] mt-[30px] text-left  w-[100%]'>Let's Catch Up Over Coffee ☕</p>  
+    <p className='lg:text-[60px] text-[25px] md:text-[40px] mt-[30px] text-left p-5 w-[100%]'>Let's Catch Up Over Coffee ☕</p>  
 <form ref={form} onSubmit={sendEmail} >  
     <label htmlFor="from_name" className='block'>Name</label>
     <input type="text" name="from_name" id="" className='inputTaker' />    

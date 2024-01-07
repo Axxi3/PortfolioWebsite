@@ -8,7 +8,7 @@ export default function ProjectCard() {
    whileInView={{opacity:1, scale:1}}   
    viewport={{ once: true }}
    transition={{duration: 0.7}}
-   className="w-[80%] p-5 flex flex-col border-2 border-black bg-[#E4EAD3]">
+   className="lg:w-[80%] w-[100%] lg:p-5 p-2 flex flex-col border-2 border-black bg-[#E4EAD3]">
     <img src={sample} alt="" />
     <p className='p-2 text-[20px]'>Card Title</p>  
     <div className="w-[100%] px-9 h-[2px] bg-black"></div>
