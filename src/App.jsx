@@ -7,7 +7,10 @@ import ProjectCard from './Components/ProjectCard'
 import SuccessFullNots from './Components/SuccessFullNots';
 import ErrorNots from './Components/ErrorNots';
 import ContactUs from './Components/ContactUs';
-import { FooterThree } from './Components/FooterThree';
+import { FooterThree } from './Components/FooterThree'; 
+import meta from "./assets/meta.jpg" 
+import music from "./assets/music.jpg" 
+import book from "./assets/book.jpg"
 
 function App() {  
   
@@ -149,7 +152,25 @@ With expertise across various platforms and a keen eye for design aesthetics, Ra
      </div>
  <div className="right md:w-[50%] flex flex-col p-[50px] gap-5 md:item-start item-center overflow-scroll">
    
- <ProjectCard/><ProjectCard/> <ProjectCard/><ProjectCard/> <ProjectCard/><ProjectCard/>
+ <ProjectCard Title={"MetaVerse Landing Page"}
+ description={"Visit the link for seeing a cool futuristic website with meaverse theme and dive into any world you want,This was a frontend web page using next js and tailwind css. I am fully responsible for the development of this project."}
+ link={"https://comfy-arithmetic-c899a5.netlify.app/"} 
+ img={meta}
+ />
+ 
+ <ProjectCard Title={"Rhythmic Realme"}
+ description={"Get all the trending songs on spotify, not only that also get top artist and album search your favourite song lyrics and enjoy music to the fullest"}
+ link={"https://github.com/Axxi3/RhytmicRealm"}
+ img={music}/> 
+
+<ProjectCard Title={"Online Bok Marketplace"}
+ description={"Get all latest book at reasonable price making book accessible to all the users no matter your budgert we gor something for you"}
+ link={"https://github.com/Axxi3/Book-Exchange-System"}
+ img={book}/> 
+ 
+ 
+ 
+ 
  </div>
       </section>  
 
