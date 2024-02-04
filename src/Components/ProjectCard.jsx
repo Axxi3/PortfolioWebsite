@@ -1,5 +1,5 @@
 import React from 'react'
-import sample from "../assets/samplepic.jpg"
+
 import { motion } from 'framer-motion'
 export default function ProjectCard(props) {   
   const gotoLink=()=>{ 
